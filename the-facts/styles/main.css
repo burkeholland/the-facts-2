@@ -1,49 +1,64 @@
-body, html {
-    margin:0;   
-    height:100%;
-    width:100%;
-}
-.view-content {
-    text-align:center;
-    padding:1em;
-    margin:0 auto;
-}
-.input-content {
-    position:absolute;
-    bottom:0.3em;
-    left:0;
-    margin:0 auto;
-    width:100%;
-    height:10%;
-}
-.input-content #qrcode-value {
-    display:block;
-    width:85%;
-    margin:50px auto 10px auto;
-    max-width:260px;
-    background-color: #fff;
-    font-style: italic;
-    color: #000;
-    padding: 7px 10px;
-    border-radius: 3px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(180, 180, 180);
-    border-bottom-color: rgb(255, 255, 255);
-    box-shadow: 0 -1px 0 #3C3C3C;
-}
-.input-content #qrcode-generate {
-    display:block;
-    width:80%;
-    margin:0 auto;
-    max-width:250px;
+#shareDrawer .km-content {
+    background-color: black;
+    color: white;
 }
 
-#qrcode > svg{
-    margin:0 auto;
-    top:50%;
+#shareDrawer .icon-big {
+    font-size: 3em;    
 }
-.km-tablet .km-ios .km-navbar .km-view-title{
-    color:#000;
-    text-shadow: 0 -1px rgba(255,255,255,0.3);
+
+#shareDrawer .icon-twitter {
+    color: #00acee;
 }
+
+#shareDrawer .icon-facebook-sign {
+    color: #3b5998;
+}
+
+#shareDrawer .icon-google-plus {
+    color: #dd4c39 ;
+}
+
+#shareDrawer .km-button {
+    width: 100%;
+}
+
+#shareDrawer .title {
+    color: gray;
+}
+
+#shareDrawer .icon {
+    margin-right: 10px;
+}
+
+.joke {
+    margin: 10px;
+}
+
+/* Custom Icons */
+.fontawesome .km-icon:after,
+.fontawesome .km-icon:before
+{
+    font: 1em/1em "FontAwesome";
+}
+
+.km-gamepad:after,
+.km-gamepad:before
+{
+    content: "\F11B";
+}
+
+.km-exclamation:after,
+.km-exclamation:before
+{
+    content: "\F12A";
+    padding-left: 7px;
+} 
+
+.km-dashboard:after,
+.km-dashboard:before
+{
+    content: "\F0E4";
+}
+ 
+
