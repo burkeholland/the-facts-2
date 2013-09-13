@@ -82,7 +82,7 @@
     });
     
     document.addEventListener("deviceready", function () {
-        application = new kendo.mobile.Application(document.body, { transition: "", skin: "flat" });
+        application = new kendo.mobile.Application(document.body, { transition: "slide", skin: "flat" });
     }, false);
     
     

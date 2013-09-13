@@ -28,6 +28,11 @@
             </div>
         </div>
         
+        <div data-role="view" data-layout="main" id="explicit" data-title="The Facts: Explicit">
+            <h1><i class="icon-warning-sign icon-big color-red"></i> Sorry! You aren't old enough to see this content.</h1>
+            <p>Neither are we....</p>
+        </div>
+        
         <div data-role="drawer" id="shareDrawer" style="width: 270px">
             <div class="centered">
                 <h2 class="centered"><i class="icon-share"></i> Share</h2>
@@ -37,18 +42,14 @@
             <h3><a data-role="button"><span class="icon"><i class="icon-google-plus icon-big"></i></span> Google+</a></h3>
         </div>
         
-        <div data-role="view" data-layout="main" id="explicit">
-        
-        </div>
-        
-        <div data-role="view" data-layout="main" id="dashboard" data-init="app.dashboardModel.init">
+        <div data-role="view" data-layout="main" id="dashboard" data-init="app.dashboardModel.init" data-title="Dashboard">
             <div id="categoriesPie"></div>
         </div>
         
         <div data-role="layout" data-id="main">
             <div data-role="header">
                 <div data-role="navbar">
-                    <span>The Facts</span>
+                    <span data-role="view-title"></span>
                 </div>	
             </div>	
             <div data-role="footer">
