@@ -19,7 +19,7 @@
                 <div data-role="navbar">
                     <span>The Facts: Clean</span>
                     <a data-role="button" data-icon="refresh" data-align="right" data-click="app.cleanModel.refresh"></a>
-                    <a data-role="button" data-icon="share" data-align="left" data-click="app.cleanModel.share" data-rel="drawer" href="#shareDrawer"></a>
+                    <a data-role="button" data-icon="share" data-align="left" data-click="app.share"></a>
                 </div>    
             </div>
             <div class="joke">
@@ -33,14 +33,14 @@
             <p>Neither are we....</p>
         </div>
         
-        <div data-role="drawer" id="shareDrawer" style="width: 270px">
+        <!-- <div data-role="drawer" id="shareDrawer" style="width: 270px">
             <div class="centered">
                 <h2 class="centered"><i class="icon-share"></i> Share</h2>
             </div>
-            <h3><a data-role="button"><span class="icon"><i class="icon-twitter icon-big"></i></span>Twitter</a></h3>
+            <h3><a data-role="button" data-click="app.shareModel.tweet"><span class="icon"><i class="icon-twitter icon-big"></i></span>Twitter</a></h3>
             <h3><a data-role="button"><span class="icon"><i class="icon-facebook-sign icon-big"></i></span> Facebook</a></h3>
             <h3><a data-role="button"><span class="icon"><i class="icon-google-plus icon-big"></i></span> Google+</a></h3>
-        </div>
+        </div> -->
         
         <div data-role="view" data-layout="main" id="dashboard" data-init="app.dashboardModel.init" data-title="Dashboard">
             <div id="categoriesPie"></div>
@@ -64,6 +64,7 @@
         <script src="kendo/js/jquery.min.js"></script>
         <script src="kendo/js/kendo.all.min.js"></script>
         <script src="scripts/app.js"></script>
+        <script src="Plugins/Social/www/social.js"></script>	
         
     </body>
 </html>
